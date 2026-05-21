@@ -12,6 +12,15 @@ A Go application that monitors a GRBL-compatible CNC machine over TCP and render
 - Exponential backoff on CNC reconnection (1 s → 30 s)
 - ASCII art visualization of the LED matrix printed to the console each frame
 
+## Hardware
+
+| Part | Link |
+|------|------|
+| 8×32 RGB LED Matrix Panel (×4) | [Amazon B088BTXHRG](https://www.amazon.com/dp/B088BTXHRG) |
+| WLED Controller | [Amazon B0FN7KVMFR](https://www.amazon.com/dp/B0FN7KVMFR) |
+
+![LED display showing CNC coordinates with green idle border](display.jpg)
+
 ## Requirements
 
 - Go 1.22.0 or higher
@@ -93,4 +102,4 @@ Overlay:    100,100,100
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
